@@ -1,0 +1,52 @@
+
+.bengals {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    height: 150px;
+
+    img {
+        height: 100%;
+    }
+}
+
+.rams {
+    text-align: center;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: calc(100vh / 2);
+    left: 0px;
+    font-size: 24px;
+    img {
+        height: 100px;
+    }
+}
+
+.table-container {
+    width: calc(100vw - 200px);
+    height: calc(100vh - 180px);
+    margin-left: 130px;
+    overflow: auto;
+
+    table {
+        display: inline-table;
+        width: 100%;
+        min-width: 1200px;
+        height: 100%;
+        border-collapse: collapse;
+        margin: auto;
+        table-layout: fixed;
+        overflow: auto;
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            margin: 0;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: pre-wrap;
+        }
+    }
+}
+
+
